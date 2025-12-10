@@ -1,0 +1,12 @@
+#hero-header {
+  font-size: 66px;
+}
+
+#list-items li {
+  text-align: left;
+  font-size: 18px;
+}
+
+#list-items li span {
+  padding-left: 4px;
+}
