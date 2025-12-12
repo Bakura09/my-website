@@ -1,0 +1,8 @@
+.iti {
+  /* NOTE: These work for local dev only if your server exposes /node_modules.
+     For production, copy these assets somewhere under /img and update the paths. */
+  --iti-path-flags-1x: url("/node_modules/intl-tel-input/build/img/flags.webp");
+  --iti-path-flags-2x: url("/node_modules/intl-tel-input/build/img/flags@2x.webp");
+  --iti-path-globe-1x: url("/node_modules/intl-tel-input/build/img/globe.webp");
+  --iti-path-globe-2x: url("/node_modules/intl-tel-input/build/img/globe@2x.webp");
+}

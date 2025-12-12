@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intl Tel Input</title>
+
+    <!-- Site styles (optional) -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- intl-tel-input styles (required to avoid the country list rendering as plain text) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.1/build/css/intlTelInput.css"
+    />
+  </head>
+  <body>
+    <main>
+      <form action="#" method="POST">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" autocomplete="tel" />
+      </form>
+    </main>
+
+    <!-- intl-tel-input JS (includes utils) -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.1/build/js/intlTelInputWithUtils.min.js"></script>
+
+    <!-- Your init script -->
+    <script src="/js/app.js" defer></script>
+  </body>
+</html>

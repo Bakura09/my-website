@@ -14,6 +14,8 @@
 
     <!-- CUSTOME CSS -->
     <link rel="stylesheet" href="/css/form.css" />
+
+    <!-- intl-tel-Input -->
   </head>
   <body>
     <main
@@ -49,17 +51,19 @@
           </div>
         </section>
 
-        <section class="mb-3">
+        <section class="mb-3 phone-num">
           <div class="mb-3">
             <label for="b" class="form-label">Your vanity URL</label>
             <div class="input-group">
-              <span class="input-group-text">+</span>
+              <span class="input-group-text">+971</span>
               <input type="number" class="form-control" id="basic-url" />
             </div>
           </div>
         </section>
 
-        <section>
+        <input id="phone" type="tel" />
+
+        <section class="submit-form">
           <button class="btn btn-primary" type="submit">Submit from</button>
         </section>
       </form>
