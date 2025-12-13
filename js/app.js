@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.intlTelInput(input, {
     // If you don't want any dial code shown separately, keep `separateDialCode` false.
-    separateDialCode: false,
+    separateDialCode: true,
 
     // Pick a default to avoid needing geo-IP lookup.
-    initialCountry: "us",
+    initialCountry: "AE",
   });
 });
